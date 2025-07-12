@@ -11,6 +11,9 @@
     <Product>Walgelijk+</Product>
     <Description>Useful additions to the main Walgelijk game engine.</Description>
     <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/flinther/WalgelijkPlus/tree/master</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,6 +24,10 @@
 
   <ItemGroup>
     <None Update="icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

@@ -35,11 +35,5 @@ public class Tileset
     public int Tilesize;
 
     public Vector2 TilesetSize { get; private set; }
-
-    public static Tileset FloorTileset = new Tileset(Assets.Load<Texture>("textures/sprites/Background/tlFloors.png"), 16);
-
-    public static Tileset WallTileset = new Tileset(Assets.Load<Texture>("textures/sprites/Background/tlWalls.png"), 8);
-
-    public static Tileset CornerTileset = new Tileset(Assets.Load<Texture>("textures/sprites/Background/tlCorners.png"), 8);
 }
 
