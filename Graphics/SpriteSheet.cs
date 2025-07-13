@@ -40,5 +40,5 @@ public class SpriteSheet
         }
     }
 
-    public static readonly SpriteSheet White = Assets.Load<SpriteSheet>("atlases/white.json");
+    public static readonly SpriteSheet White = Assets.Load<SpriteSheet>("data/atlases/white.json");
 }
