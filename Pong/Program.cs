@@ -148,7 +148,7 @@ namespace Pong
             if (force != Vector2.Zero)
                 force = Vector2.Normalize(force);
 
-            leftRb.Velocity.Y = force.Y * 4.5f;
+            leftRb.Velocity.Y = force.Y * 9f;
 
             if (ballRb != null &&
                 Scene.TryGetComponentFrom<TransformComponent>(ballRb.Entity, out var ballTransform) &&
@@ -156,7 +156,7 @@ namespace Pong
             {
                 float distanceFromBall = 0;
                 distanceFromBall = ballTransform.Position.Y - rightTransform.Position.Y;
-                rightRb.Velocity = Vector2.Normalize(new Vector2(0, distanceFromBall)) * 4.5f;
+                rightRb.Velocity = Vector2.Normalize(new Vector2(0, distanceFromBall)) * 9f;
 
                 if (ballTransform.Position.X > 625)
                 {
@@ -281,7 +281,7 @@ namespace Pong
             {
                 GravityScale = 0,
                 Material = new PhysicsMaterial(1, 1),
-                Velocity = random * 5
+                Velocity = random * 10
             });
         }
 
