@@ -1,0 +1,20 @@
+{
+  "Name": "white",
+  "Animations": {
+    "Default": {
+      "FrameInfos": [
+        {
+          "TopLeft": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Scale": {
+            "X": 16.0,
+            "Y": 16.0
+          }
+        }
+      ]
+    }
+  },
+  "Texture": "base:textures/white.png"
+}
