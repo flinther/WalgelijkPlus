@@ -18,5 +18,5 @@ A Library that adds to the main [Walgelijk](https://github.com/mestiez/Walgelijk
 
 ## Examples
 
-![Pong](https://raw.githubusercontent.com/flinther/WalgelijkPlus/refs/heads/master/Pong/pong.png)
+![Pong](https://raw.githubusercontent.com/flinther/WalgelijkPlus/refs/heads/master/Pong/pong.gif)
 
