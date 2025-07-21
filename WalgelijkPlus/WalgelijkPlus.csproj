@@ -17,6 +17,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Animations\**" />
+    <EmbeddedResource Remove="Animations\**" />
+    <None Remove="Animations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NativeFileDialogExtendedSharp" Version="0.1.0" />
     <PackageReference Include="Walgelijk" Version="0.32.0" />
     <PackageReference Include="Walgelijk.AssetManager" Version="0.17.1" />
     <PackageReference Include="Walgelijk.SimpleDrawing" Version="1.27.1" />

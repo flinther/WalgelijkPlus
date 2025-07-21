@@ -17,7 +17,6 @@
     <PackageReference Include="Walgelijk.CommonAssetDeserialisers" Version="*" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\WalgelijkPlus\WalgelijkPlus.csproj" />
     <ProjectReference Include="..\WalgelijkPlus\WalgelijkPlus.csproj" />
   </ItemGroup>
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">

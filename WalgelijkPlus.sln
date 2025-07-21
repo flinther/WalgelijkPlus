@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalgelijkPlus", "WalgelijkP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong", "Pong\Pong.csproj", "{E70C80F0-FD2F-4C88-A72A-4F7B7358AC9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPtoWP", "TPtoWP\TPtoWP.csproj", "{8DD10691-BE79-41C6-9729-7569F86147BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E70C80F0-FD2F-4C88-A72A-4F7B7358AC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E70C80F0-FD2F-4C88-A72A-4F7B7358AC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E70C80F0-FD2F-4C88-A72A-4F7B7358AC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD10691-BE79-41C6-9729-7569F86147BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD10691-BE79-41C6-9729-7569F86147BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD10691-BE79-41C6-9729-7569F86147BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD10691-BE79-41C6-9729-7569F86147BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
